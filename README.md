@@ -1,9 +1,9 @@
 #Install Bahan
 '''
->pkg install git
->pkg install bash
->pkg install toilet
->pkg install figlet
+> pkg install git
+> pkg install bash
+> pkg install toilet
+> pkg install figlet
 '''
 #Clone Github
 '''
