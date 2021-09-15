@@ -12,7 +12,7 @@ git clone https://github.com/kafidrenaldo/spam-telp
 #Menjalankan Script
 ```
 cd spam-telp
->sh spam-telp.sh
+sh spam-telp.sh
 ```
 #⚠️ Pehatian ⚠️
 
