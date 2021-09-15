@@ -1,6 +1,6 @@
 #Install Bahan
 
-> pkg install git
+> pkg install git \n
 > pkg install bash
 > pkg install toilet
 > pkg install figlet
