@@ -1225,11 +1225,10 @@ read -p "masukan no target : " nomor
 link="https://id.jagreward.com/member/verify-mobile/$nomor"
 echo "$suk Spam Telepon Akan Segera Dikirim Mohon Tunggu"
 echo "$suk untuk menghetikan spam tekan "ctrl + c / ctrl + z" "
-curl -s $link \n
-curl -s $link \n
-curl -s $link \n
-curl -s $link \n
-curl -s $link \n
+echo "$yellow•$green=============================================$yellow•$kosong"
+curl -s $link 
+echo "$yellow•$green=============================================$yellow•$kosong"
+
 if [ $pil = 2 ] || [ $pil = 02 ]; then
 echo 'terima kasih udah pake tools gue'
 exit
