@@ -3,7 +3,10 @@
 #mau recode y
 #recode aja gpp kok
 #tapi donasi duluya
-
+echo "$green install package"
+(apt update && apt upgrade) &> /Dev/null
+(pkg install git toilet figlet nano python python2 python3 bash && gem install lolcat) &> /Dev/null
+read -p "$blue[$green•$blue] $greenpleas enter"
 
 
 
