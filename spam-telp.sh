@@ -7,7 +7,7 @@
 echo "$green install package"
 (apt update && apt upgrade) &> /dev/null
 (pkg install git toilet figlet nano python python2 python3 bash && gem install lolcat) &> /dev/null
-sleep 1
+sleep 10
 echo "$green selesai"
 
 
