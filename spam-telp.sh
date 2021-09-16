@@ -3,17 +3,12 @@
 #mau recode y
 #recode aja gpp kok
 #tapi donasi duluya
-install() {
 
 echo "$green install package"
 (apt update && apt upgrade) &> /Dev/null
 (pkg install git toilet figlet nano python python2 python3 bash && gem install lolcat) &> /Dev/null
-read -p "$blue[$green•$blue] $greenpleas enter" e
-if [ $e =  ]
-then
-echo "$green selesai"
-fi
-}
+sleeep 1
+echo "$green selesai
 
 
 
@@ -113,7 +108,6 @@ fi
 
 
 
-install()
 
 
 
