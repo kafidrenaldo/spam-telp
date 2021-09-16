@@ -12,6 +12,7 @@ read -p "$blue[$green•$blue] $greenpleas enter" e
 if [ $e =  ]
 then
 echo "$green selesai"
+fi
 }
 
 
