@@ -5,10 +5,10 @@
 #tapi donasi duluya
 
 echo "$green install package"
-(apt update && apt upgrade) &> /Dev/null
-(pkg install git toilet figlet nano python python2 python3 bash && gem install lolcat) &> /Dev/null
-sleeep 1
-echo "$green selesai
+(apt update && apt upgrade) &> /dev/null
+(pkg install git toilet figlet nano python python2 python3 bash && gem install lolcat) &> /dev/null
+sleep 1
+echo "$green selesai"
 
 
 
