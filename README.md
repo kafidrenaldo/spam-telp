@@ -4,6 +4,8 @@ pkg install git
 pkg install bash
 pkg install toilet
 pkg install figlet
+gem install lolcat
+
 ```
 #Clone Github
 ```
