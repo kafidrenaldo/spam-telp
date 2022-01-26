@@ -17,8 +17,8 @@ cd spam-telp
 sh spam-telp.sh
 ```
 #⚠️ Pehatian ⚠️
-
-> Spam minimal 3 kali <
-> Setelah 3 kali digunakan akan tidak berfungsi lagi <
-> Dan harus tunggu beberapa saat lagi untuk menggunakannya <
-
+```
+> Spam minimal 3 kali 
+> Setelah 3 kali digunakan akan tidak berfungsi lagi 
+> Dan harus tunggu beberapa saat lagi untuk menggunakannya 
+```
