@@ -29,8 +29,8 @@ echo "";
 
 
 echo "$green install package"
-(apt update && apt upgrade) &> /dev/null;
-(pkg install git toilet figlet nano python python2 python3 bash && gem install lolcat) &> /dev/null;
+(apt update && apt upgrade) &> /dev/null; 
+(pkg install git toilet figlet nano python python2 python3 bash && gem install lolcat) &> /dev/null & spin;
 sleep 1
 echo "$green selesai"
 
@@ -1204,31 +1204,31 @@ echo "$green selesai"
 
 
 clear
-white="\033[97m";
-black="\033[30m\033[1m";
-yellow="\033[93m";
-orange="\033[38;5;208m";
-blue="\033[34m";
-lblue="\033[36m";
-green="\033[92m";
-fgreen="\033[32m";
-red="\033[91m";
-magenta="\033[35m";
-bluebg="\033[44m";
-lbluebg="\033[106m";
+white="\e[97m";
+black="\e[1m";
+yellow="\e[93m";
+orange="\e[38m";
+blue="\e[34m";
+lblue="\e[36m";
+green="\e[92m";
+fgreen="\e[32m";
+red="\e[91m";
+magenta="\e[35m";
+bluebg="\e[44m";
+lbluebg="\e[106m";
 greenbg="\033[42m";
-lgreenbg="\033[102m";
-yellowbg="\033[43m";
-lyellowbg="\033[103m";
-redbg="\033[101m";
-grey="\033[37m";
-cyan="\033[36m";
-bold="\033[1m";
-kosong="\033[0m";
+lgreenbg="\e[102m";
+yellowbg="\e[43m";
+lyellowbg="\e[103m";
+redbg="\e[101m";
+grey="\e[37m";
+cyan="\e[36m";
+bold="\e[1m";
+kosong="\e[0m";
 
-ask="\033[97m[ \033[91m?\033[97m ] ";
-err="\033[97m[ \033[93m!\033[97m ] ";
-suk="\033[97m[ \033[92m+\033[97m ] ";
+ask="\e[97m[ \e[91m?\e[97m ] ";
+err="\e[97m[ \e[93m!\e[97m ] ";
+suk="\e[97m[ \e[92m+\e[97m ] ";
 
 echo " $green•$yellow============================================$greem•	"
 echo " $blue Author	   :$cyan Kafid_Renaldo          	"
