@@ -35,6 +35,6 @@ echo "selesai"
 slepp 1
 clear
 
-./spam
+./.spam
 #if check = true
 #echo gas spam
