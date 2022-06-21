@@ -14,7 +14,8 @@ git clone https://github.com/kafidrenaldo/spam-telp
 #Menjalankan Script
 ```
 cd spam-telp
-sh spam-telp.sh
+chmod +x install.sh
+./install.sh
 ```
 #⚠️ Pehatian ⚠️
 ```
