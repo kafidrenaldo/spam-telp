@@ -3,7 +3,7 @@
 #mau recode y
 #recode aja gpp kok
 #tapi donasi duluya
-
+err="\e[97m[ \e[93m!\e[97m ] ";
 spin () {
 
 local pid=$!
